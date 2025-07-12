@@ -40,7 +40,7 @@ export default function Projects() {
       name: "IMDb-Website-Clone",
       description: "This React.js project is a very basic clone of the original IMDb website. It receives data from an external API to display movie information.",
       techStack: ["React.js"],
-      liveLink: " https://lovely-basbousa-ed5457.netlify.app/",
+      liveLink: " https://imdb-clone-smoky-eta.vercel.app/",
       githubLink: " https://github.com/prabhat3009/imdb-clone",
       imageUrl: "/imdb.jpg",
     },
