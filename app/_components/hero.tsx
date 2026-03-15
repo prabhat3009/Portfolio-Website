@@ -88,7 +88,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 1.5, ease: "easeOut" }}
         >
           <a
-            href="/resume.pdf"
+            href="/Resume.pdf"
             download="Prabhat_Tripathi_Resume.pdf"
             className="inline-block bg-white text-black font-semibold py-2 px-4 rounded-md hover:text-green-400 transition duration-300"
           >
