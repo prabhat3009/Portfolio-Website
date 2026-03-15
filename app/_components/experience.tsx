@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import JobExperience from "./jobExpComp";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -48,6 +48,22 @@ export default function ExperienceSection() {
         >
           <motion.div variants={itemVariants}>
             <JobExperience
+              title="Frontend Software Developer Intern"
+              date="July 2025 - December 2025"
+              company="GeoIQ - A Lenskart Company"
+              location="Bangalore"
+              responsibilities={[
+                "Led frontend development of ScreenIQ, an internal Lenskart dashboard for managing AR Try-On model training/testing sessions.",
+                "Built the entire dashboard UI including filters, date/time sorting, unique ID search, session viewer, event feed manager, video player integration, and comment-at-timestamp system.",
+                "Developed a complete Session Logs module and implemented real-time Event Feed using Socket.IO and integrated Google Sign-In and coordinated closely with backend teams for API design and feature delivery.",
+                "Developed new UI features for RetailIQ, Demand Maps, Active Stores, and Discovery pages, including hero sections, testimonials carousel, sidebar menus, empty-state UIs, and UI Kit component additions.",
+                "Built and updated reusable UI components in GeoIQ’s Web UI Kit, improving consistency across products.",
+                "Worked with React.js, Next.js, React Router v7 (Remix), TypeScript, Storybook, Strapi (CMS), and Postman for frontend development and API integration.",
+              ]}
+            />
+          </motion.div>
+          <motion.div variants={itemVariants}>
+            <JobExperience
               title="Core Developer in the Google Developer Student Club at BITS Goa"
               date="Aug 2023 - May 2024"
               company="GDSC"
@@ -57,21 +73,6 @@ export default function ExperienceSection() {
                 "Technical Skills: Gained important technical expertise and improved proficiency with new technologies.",
                 "Teamwork: Enhanced team collaboration and communication skills.",
                 "Overall Growth: Developed a balance of technical proficiency and teamwork abilities through hands-on experience.",
-              ]}
-            />
-          </motion.div>
-
-          <motion.div variants={itemVariants}>
-            <JobExperience
-              title="Summer Intern at Banaras Locomotive Works"
-              date="May 2024 - Jul 2024"
-              company="Banaras Locomotive Works"
-              location="Varanasi"
-              responsibilities={[
-                "Internship: Completed a summer internship at Banaras Locomotive Works (BLW).",
-                "Program: Part of the Practice School Program at BITS Pilani.",
-                "Experience Gained: Developed valuable skills in management and teamwork.",
-                "Professional Exposure: Gained hands-on experience in a real-world industrial environment.",
               ]}
             />
           </motion.div>

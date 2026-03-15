@@ -45,19 +45,35 @@ export default function SkillsSection() {
           <motion.div variants={cardVariants} className="flex">
             <SkillsCard
               title="Frontend Developer"
-              skills={["HTML", "CSS", "JavaScript", "React.js", "Next.js"]}
+              skills={[
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React.js",
+                "Next.js",
+                "Tailwind CSS",
+                "TypeScript",
+                "Remix",
+              ]}
             />
           </motion.div>
           <motion.div variants={cardVariants} className="flex">
             <SkillsCard
               title="Backend Developer"
-              skills={["Node.js", "Express", "MongoDB"]}
+              skills={["Node.js", "Express", "MongoDB", "Rest API"]}
             />
           </motion.div>
           <motion.div variants={cardVariants} className="flex">
             <SkillsCard
-              title="Designer"
-              skills={[ "Figma", "Canva"]}
+              title="Tools"
+              skills={[
+                "Git",
+                "Github",
+                "Bitbucket",
+                "Postman",
+                "Copilot",
+                "Cursor",
+              ]}
             />
           </motion.div>
         </motion.div>
