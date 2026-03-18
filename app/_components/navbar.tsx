@@ -45,6 +45,12 @@ export default function Navbar() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <Link
+                href="#experience"
+                className="text-white hover:text-green-400 px-3 py-2 rounded-md text-lg font-medium"
+              >
+                Experience
+              </Link>
+              <Link
                 href="#skills"
                 className="text-white hover:text-green-400 px-3 py-2 rounded-md text-lg font-medium"
               >
@@ -56,12 +62,7 @@ export default function Navbar() {
               >
                 Projects
               </Link>
-              <Link
-                href="#experience"
-                className="text-white hover:text-green-400 px-3 py-2 rounded-md text-lg font-medium"
-              >
-                Experience
-              </Link>
+
               <Link
                 href="#contact"
                 className="text-white hover:text-green-400 px-3 py-2 rounded-md text-lg font-medium"

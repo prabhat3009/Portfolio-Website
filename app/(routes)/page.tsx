@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <section id="skills">
-        <SkillsSection />
-      </section>
       <section id="experience">
         <ExperienceSection />
+      </section>
+      <section id="skills">
+        <SkillsSection />
       </section>
       <section id="projects">
         <Projects />

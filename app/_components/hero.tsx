@@ -2,16 +2,13 @@
 import Image from "next/image";
 import { useTypewriter } from "react-simple-typewriter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { motion } from "framer-motion";
 import codeImg from "../../public/profile.jpg";
 
 export default function Hero() {
   const [text] = useTypewriter({
-    words: ["Developer", "Designer", "Tech Enthusiast"],
+    words: ["Developer", "Engineer", "Tech Enthusiast"],
     loop: true,
     typeSpeed: 70,
     deleteSpeed: 50,
@@ -64,18 +61,20 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1, ease: "easeOut" }}
         >
-          <a 
-            href="https://www.linkedin.com/in/prabhat-pati-tripathi/" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="text-4xl hover:text-gray-300">
+          <a
+            href="https://www.linkedin.com/in/prabhat-pati-tripathi/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-4xl hover:text-gray-300"
+          >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a 
-            href="https://github.com/prabhat3009" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="text-4xl hover:text-gray-300">
+          <a
+            href="https://github.com/prabhat3009"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-4xl hover:text-gray-300"
+          >
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </motion.div>
@@ -89,7 +88,7 @@ export default function Hero() {
         >
           <a
             href="/Resume.pdf"
-            download="Prabhat_Tripathi_Resume.pdf"
+            download="Prabhat_Pati_Tripathi.pdf"
             className="inline-block bg-white text-black font-semibold py-2 px-4 rounded-md hover:text-green-400 transition duration-300"
           >
             Download Resume
