@@ -53,11 +53,11 @@ export default function ExperienceSection() {
               company="GeoIQ - A Lenskart Company"
               location="Bangalore"
               responsibilities={[
-                "Led frontend development of ScreenIQ, an internal Lenskart dashboard for managing AR Try-On model training/testing sessions.",
+                "Led frontend development of ScreenIQ, an internal dashboard used by Lenskart's Tech team to manage and review 1,000+ daily AR Try-On model testing videos.",
                 "Built the entire dashboard UI including filters, date/time sorting, unique ID search, session viewer, event feed manager, video player integration, and comment-at-timestamp system.",
                 "Developed a complete Session Logs module and implemented real-time Event Feed using Socket.IO and integrated Google Sign-In and coordinated closely with backend teams for API design and feature delivery.",
                 "Developed new UI features for RetailIQ, Demand Maps, Active Stores, and Discovery pages, including hero sections, testimonials carousel, sidebar menus, empty-state UIs, and UI Kit component additions.",
-                "Built and updated reusable UI components in GeoIQ’s Web UI Kit, improving consistency across products.",
+                "Built and updated 10+ reusable UI components in GeoIQ’s Web UI Kit, improving consistency across products.",
                 "Worked with React.js, Next.js, React Router v7 (Remix), TypeScript, Storybook, Strapi (CMS), and Postman for frontend development and API integration.",
               ]}
             />

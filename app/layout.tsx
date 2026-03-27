@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./_components/navbar";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Prabhat Tripathi</title>
+        <title>Prabhat Pati Tripathi</title>
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className}>

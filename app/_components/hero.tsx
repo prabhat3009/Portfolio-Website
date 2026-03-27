@@ -37,12 +37,12 @@ export default function Hero() {
         transition={{ duration: 1, ease: "easeOut" }}
       >
         <motion.h1
-          className="text-5xl md:text-7xl font-bold"
+          className="text-5xl md:text-7xl font-bold whitespace-nowrap"
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          Prabhat Tripathi
+          Prabhat Pati Tripathi
         </motion.h1>
         <motion.p
           className="text-2xl md:text-3xl mt-4"
@@ -87,8 +87,8 @@ export default function Hero() {
           transition={{ duration: 1, delay: 1.5, ease: "easeOut" }}
         >
           <a
-            href="/Prabhat_Tripathi_Resume.pdf"
-            download="Prabhat_Tripathi_Resume.pdf"
+            href="/Prabhat_Pati_Tripathi_Resume.pdf"
+            download="Prabhat_Pati_Tripathi_Resume.pdf"
             className="inline-block bg-white text-black font-semibold py-2 px-4 rounded-md hover:text-green-400 transition duration-300"
           >
             Download Resume
