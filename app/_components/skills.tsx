@@ -53,7 +53,7 @@ export default function SkillsSection() {
                 "Next.js",
                 "Tailwind CSS",
                 "TypeScript",
-                "Remix",
+                "Remix(React Router v7)",
               ]}
             />
           </motion.div>
@@ -70,9 +70,10 @@ export default function SkillsSection() {
                 "Git",
                 "Github",
                 "Bitbucket",
-                "Postman",
                 "Copilot",
                 "Cursor",
+                "Docker",
+                "Postman",
               ]}
             />
           </motion.div>
